@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<!-- css do bootstrap -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+	crossorigin="anonymous">
+  <link href="./css/style.css" rel="stylesheet" type="text/css" />
+  <!-- Css da página home -->
+	<link href="./css/home.css" rel="stylesheet" type="text/css" />
+	  <!-- Link do google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700;900&display=swap" rel="stylesheet">  
+  <title>DH Flix</title>
+</head>
+
+<body>
+	<header>
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="./index.html">DH Flix</a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto justify-content-end flex-grow-1 pe-3 mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#itens">Itens</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./pages/login.html">Login</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#sobre">Sobre nós</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Banner foi utilizado um background image, e classes do bootstrap para a responsividade-->
+    <div class="banner">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-lg-12 titulos">
+            <h1>DH Flix</h1>
+            <p>Filmes, Séries e afins você encontra aqui na DH Flix.</p>
+            <a href="#" class="btn btn-primary">Explorar</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container" id="itens">
+      <div class="row">
+        <div class="itens-title col-12">
+          <h2>Itens</h2>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img src="./img/filmes/lotr1.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">O senhor dos Anéis: A Sociedade Do Anel</h5>
+            <p class="card-text">Filme baseado na obra de J.R.R Tolkien.</p>
+            <a href="./pages/lotr1.html" class="btn btn-primary col-12">Abrir</a>
+          </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+          <img src="./img/filmes/lotr2.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">O senhor dos Anéis: As Duas Torres</h5>
+            <p class="card-text">Filme baseado na obra de J.R.R Tolkien.</p>
+            <a href="./pages/lotr2.html" class="btn btn-primary col-12">Abrir</a>
+          </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+          <img src="./img/filmes/lotr3.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">O senhor dos Anéis: O Retorno do Rei</h5>
+            <p class="card-text">Filme baseado na obra de J.R.R Tolkien.</p>
+            <a href="./pages/lotr3.html" class="btn btn-primary col-12">Abrir</a>
+          </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+          <img src="./img/filmes/arcane.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Arcane</h5>
+            <p class="card-text">Série animada baseada no mundo de League of Legends.</p>
+            <a href="./pages/arcane.html" class="btn btn-primary col-12">Abrir</a>
+          </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+          <img src="./img/filmes/dota.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">DOTA: Dragon's Blood</h5>
+            <p class="card-text">Filme baseado no mundo de DOTA 2</p>
+            <a href="./pages/dota.html" class="btn btn-primary col-12">Abrir</a>
+          </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+          <img src="./img/filmes/httyd.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Como Treinar o Seu Dragão 3</h5>
+            <p class="card-text">Uma adaptação do livro "How To Train Your Dragon"</p>
+            <a href="./pages/httyd.html" class="btn btn-primary col-12">Abrir</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </main>
+
+
+  <footer>
+    <div class="container" id="sobre">
+      <div class="row">
+        <div class="col-12 col-md-4 col-lg-4">
+          <h6>Rodrigo Lisboa</h6>
+          <div class="links">
+            <a href="https://github.com/rlisboas" target="_blank"><img src="./img/svg/github.svg" alt=""></a>
+            <a href="www.linkedin.com/in/rlisboas" target="_blank"><img src="./img/svg/linkedin.svg" alt=""></a>
+          </div>
+        </div>
+        <div class="col-12 col-md-4 col-lg-4">
+          <h6>Marcelo Pacholak</h6>
+          <div class="links">
+            <a href="https://github.com/marc310k" target="_blank"><img src="./img/svg/github.svg" alt=""></a>
+            <a href="https://www.linkedin.com/in" target="_blank"><img src="./img/svg/linkedin.svg" alt=""></a>
+          </div>
+        </div>
+        <div class="col-12 col-md-4 col-lg-4">
+          <h6>Juan Farias</h6>
+          <div class="links">
+            <!-- Note que a extensão da imagem é SVG que um formato de arquivo para vetores gráficos -->
+            <a href="https://github.com/"><img src="./img/svg/github.svg" alt=""></a>
+            <a href="https://www.linkedin.com/in" target="_blank"><img src="./img/svg/linkedin.svg" alt=""></a>
+          </div>
+        </div>
+        <div class="col-12 ano">
+          <h6>Desenvolvido em Dezembro de 2021 - Checkpoint FrontEnd III - DH</h6>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+
+  </script>
+</body>
+
+</html>

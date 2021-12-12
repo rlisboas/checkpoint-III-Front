@@ -1,0 +1,47 @@
+body{
+    background-image: url('../img/banners/banner-login.png');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .form{
+    margin: 0 auto;
+    margin-top: 15vh;
+    margin-bottom: 7vh;
+    padding: 25px;
+    border-radius: 25px;
+  
+    width: 60vw;
+    background-color: rgb(230, 229, 229);
+    height: 60vh;
+  }
+  
+  .enviar>button{
+    margin-top: 25px;
+    width: 100%;
+  }
+  
+  @media(min-width:768px){
+    .form{
+      width: 50vw;
+    }
+  }
+  @media(min-width:1024px){
+    .form{
+      width: 40vw;
+    }
+  }
+  @media(min-width:2560px){
+    form{
+      font-size: 2em;
+    }
+    input{
+      height: 5vh;
+    }
+    .form{
+      width: 30vw;
+    }
+  }
+  
