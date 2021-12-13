@@ -12,7 +12,7 @@ body{
 /* Apenas dei padding para aumentar o tamanho do footer e alinhei tudo ao centro */
 footer{
   position: absolute;
-  padding: 2%;
+  padding: 35px;
   width: 100%;
 
   text-align: center;
@@ -31,7 +31,9 @@ footer{
   background-repeat: no-repeat;
   justify-content: right;
 }
-
+.links{
+  margin-bottom: 20px;
+}
 .links>a {
   margin: 1%;
 }
