@@ -13,6 +13,13 @@
     padding: 20px 0;
   }
   
+  .filmes-title h2 {
+    margin-top: 25px;
+}
+.filmes-title>div {
+  margin: 15px 0px;
+}
+
   iframe{
     width: 100%;
     height: 90vh;
