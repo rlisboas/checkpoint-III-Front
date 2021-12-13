@@ -40,6 +40,9 @@ div>h6 {
   margin: 20px auto !important;
   transition: 300ms ease-in-out;
 }
+.card img {
+  max-height: 380px;
+}
   .card>h5{
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
@@ -54,11 +57,16 @@ div>h6 {
       background-color: rgb(59, 209, 119);
       border-color: #33BB69;
   }
-
+.card-title{
+  height: 50px;
+}
 .itens-title{
   padding-top: 20px;
-  padding: 20px;
+  padding: 20px 20px 0px 20px;
   text-align: center;
+}
+.itens-title h2{
+  margin-top: 20px;
 }
 
 .card:hover{
